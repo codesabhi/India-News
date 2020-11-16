@@ -1,4 +1,4 @@
-console.log("welcome to news project using news api.")
+// console.log("welcome to news project using news api.")
 
 // grab the apikey
 let apiToken = 'ad012bf2e7a6afbfa8820fbdd86865d0'
@@ -16,7 +16,7 @@ xhr.onload = function () {
     if (this.status === 200) {
         let json = JSON.parse(this.responseText);
         let articles = json.articles;
-        console.log(articles);
+        // console.log(articles);
 
         let newsHtml = " ";
 
